@@ -206,7 +206,7 @@ article, section {
 h1, h2, h3, h4, h5, h6 {
   color: #222;
   padding: 0;
-  margin: 0 0 20px;
+  margin: 0 0 .25em;
   line-height: 1.2;
   text-shadow: rgba(0, 0, 0, 0.1) 0 -1px 1px;
 }
@@ -216,7 +216,7 @@ p, table, pre, dl {
 }
 
 ul, ol {
-  margin: 0 0 1em;
+  margin: .25em 0 .75em 0;
   padding: 0 0 0 1.3em;
 }
 
