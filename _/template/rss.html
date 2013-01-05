@@ -1,0 +1,24 @@
+<?= '<?xml version="1.0" encoding="UTF-8"?>' ?>
+<rss version="2.0">
+ <channel>
+    <title><![CDATA[Наблюдения о веб-разработке и не только &copy; Megakote]]></title>
+    <link>http://megakote.github.com/</link>
+    <pubDate><?= date(DATE_RFC822, strtotime(PUREPRESS::$index[0]['{$date}'])); ?></pubDate>
+    <generator>Purepress</generator>
+    <image>
+      <link>http://megakote.github.com/</link>
+      <url>https://si0.twimg.com/profile_images/1466328741/cat._normal</url>
+      <title><![CDATA[Наблюдения о веб-разработке и не только &copy; Megakote]]></title>
+    </image>
+   <?
+   foreach (PUREPRESS::$index as $item)
+    $s .= strtr('<item>
+    <title><![CDATA[{$title}]]></title>
+    <link>http://megakote.github.com/{$url}</link>
+    <pubDate>' . date(DATE_RFC822, strtotime($item['{$date}'])) . '</pubDate>
+    <description><![CDATA[{$data}]]></description>
+   </item>', $item);
+   echo $s;
+   ?>
+ </channel>
+</rss>

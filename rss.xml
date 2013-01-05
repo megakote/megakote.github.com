@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0">
+ <channel>
+    <title><![CDATA[Наблюдения о веб-разработке и не только &copy; Megakote]]></title>
+    <link>http://megakote.github.com/</link>
+    <pubDate>Fri, 04 Jan 13 00:00:00 +0400</pubDate>
+    <generator>Purepress</generator>
+    <image>
+      <link>http://megakote.github.com/</link>
+      <url>https://si0.twimg.com/profile_images/1466328741/cat._normal</url>
+      <title><![CDATA[Наблюдения о веб-разработке и не только &copy; Megakote]]></title>
+    </image>
+   <item>
+    <title><![CDATA[Шум как помеха для мыслепреступления]]></title>
+    <link>http://megakote.github.com/2013-01-04-noise.html</link>
+    <pubDate>Fri, 04 Jan 13 00:00:00 +0400</pubDate>
+    <description><![CDATA[{$data}]]></description>
+   </item><item>
+    <title><![CDATA[Виртуализация браузеров или как запустить несколько версий Internet Explorer]]></title>
+    <link>http://megakote.github.com/2012-07-26_portable_internet_explorer.html</link>
+    <pubDate>Thu, 26 Jul 12 00:00:00 +0400</pubDate>
+    <description><![CDATA[{$data}]]></description>
+   </item> </channel>
+</rss>
