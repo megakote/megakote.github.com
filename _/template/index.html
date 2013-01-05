@@ -1,0 +1,9 @@
+<?
+
+$s = Helper::Template('header.html', array('{$title}' => 'Заглавная')) .
+     '<ul class="post_links">'  . "\n";
+
+foreach (PUREPRESS::$index as $item)
+  $s .= strtr('<li><time class="post_stamp">{$date}</time><a class="post_link" href="{$url}">{$title}</a></li>', $item) . "\n";
+
+echo $s . '</ul>' . Helper::Template('footer.html');
